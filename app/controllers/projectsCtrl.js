@@ -1,8 +1,9 @@
 define(function(require){
   var angular = require('angular');
   var ngRoute = require('ngRoute');
+  var bootstrap = require('bootstrap');
   angular
-    .module('SeedApp.projects', ['ngRoute'])
+    .module('NashApp.projects', ['ngRoute'])
     .config(["$routeProvider", function($routeProvider) {
       $routeProvider.when("/projects", {
         templateUrl: "partials/projects.html",

@@ -7,10 +7,10 @@ define(function (require) {
   var about = require('controllers/aboutCtrl');
   var projects = require('controllers/projectsCtrl');
 
-  return angular.module("SeedApp", [
-    'SeedApp.home',
-    'SeedApp.about',
-    'SeedApp.projects',
+  return angular.module("NashApp", [
+    'NashApp.home',
+    'NashApp.about',
+    'NashApp.projects',
     'angular.filter', 
     'ngRoute'])
   .config(['$routeProvider',
