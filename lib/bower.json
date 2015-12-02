@@ -1,0 +1,24 @@
+{
+  "name": "ddbunc2.github.io",
+  "homepage": "https://github.com/ddbunc2/ddbunc2.github.io",
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "authors": [
+    "Deric Bunch"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-filter": "~0.5.7",
+    "angular-route": "~1.4.7",
+    "requirejs": "~2.1.20"
+  }
+}
